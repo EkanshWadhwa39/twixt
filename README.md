@@ -5,7 +5,7 @@
 This is the Phase 1 implementation of the Twixt project.  
 The purpose of this phase is to build the basic elements of the game, including:
 
-- A 12x12 game board  (Later will be upgraded to a 24*24 game board)
+- A 24x24 game board  
 - Rendering the board  
 - Functions for placing Red and Blue pins on any empty cell  
 
@@ -13,7 +13,7 @@ No link logic or win detection is included in this phase.
 
 *Features Implemented*
 
-*1. 12x12 Board Rendering*  
+*1. 24x24 Board Rendering*  
 The board is stored as a 2D grid.  
 Each cell contains:  
 .  → empty  
@@ -63,7 +63,7 @@ This phase does *not* include:
 - Line legality checks  
 - Path connectivity  
 - Win detection  
-- AI or online play  
+
 
 These belong to 2nd project phases.
 
@@ -73,7 +73,7 @@ These belong to 2nd project phases.
 
 
 
-Stores all game data: current player and a 12x12 grid of Cell structs.  
+Stores all game data: current player and a 24x24 grid of Cell structs.  
 Each Cell has an id, a hasPin flag, and a pinColor (NONE, R, or B).
 
 
