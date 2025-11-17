@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-#define BOARD_SIZE 12
+#define BOARD_SIZE 24
 
 typedef enum {
     NONE = '-',
